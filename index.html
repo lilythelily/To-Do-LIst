@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-list</title>
+    <script
+      src="https://kit.fontawesome.com/ae13324555.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap");
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="to-do">To-do List</h1>
+
+      <div class="wrapper">
+        <div class="tabs">
+          <div class="tab-work">Work</div>
+          <div class="tab-personal">Personal</div>
+        </div>
+
+        <div class="work-pane">
+          <div class="add-title">
+            <i class="fa-solid fa-list-check" width="24px"></i>
+            <p class="add-task">Add New Task</p>
+          </div>
+
+          <input
+            type="text"
+            placeholder="Submit a proposal"
+            class="input-text"
+          />
+          <button class="add">Add<i class="fa-solid fa-plus"></i></button>
+
+          <ul>
+            <!-- <li class="text-icons hide">
+          <div class="new-field"></div>
+            <div class="icons">
+              <i class="fa-solid fa-check check"></i>
+              <i class="fa-solid fa-trash delete"></i>
+            </div>
+          </div></li> -->
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- personal-pane -->
+
+    <div class="personal hide">
+      <h1 class="to-do">To-do List</h1>
+      <div class="wrapper">
+        <div class="tabs">
+          <div class="tab-work" id="tab-work">Work</div>
+          <div class="tab-personal">Personal</div>
+        </div>
+
+        <div class="work-pane">
+          <div class="add-title">
+            <i class="fa-solid fa-list-check" width="24px"></i>
+            <p class="add-task">Add New Task</p>
+          </div>
+
+          <input
+            type="text"
+            placeholder="Submit a proposal"
+            class="input-text2"
+          />
+          <button class="add2">Add<i class="fa-solid fa-plus"></i></button>
+   <ul id="ul2">
+            <!-- <li class="text-icons hide">
+          <div class="new-field"></div>
+            <div class="icons">
+              <i class="fa-solid fa-check check"></i>
+              <i class="fa-solid fa-trash delete"></i>
+            </div>
+          </div></li> -->
+          </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
